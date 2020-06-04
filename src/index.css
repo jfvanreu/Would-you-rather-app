@@ -1,0 +1,291 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #252525;
+}
+
+a {
+  text-decoration: none;
+  color: #252525;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.answer-btn {
+  text-transform: uppercase;
+  margin: 35px auto;
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,.29);
+  border-radius: 8px;
+  cursor: pointer;
+  background: #3BA3FB;
+  font-size: 16px;
+  width: 250px;
+  position: center;
+  text-align: center;
+}
+
+
+.btn {
+  text-transform: uppercase;
+  margin: 35px auto;
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,.29);
+  border-radius: 8px;
+  cursor: pointer;
+  background: #3BA3FB;
+  font-size: 16px;
+  width: 250px;
+  position: relative;
+}
+
+.btn:hover {
+  border-color: rgba(0,0,0,.5);
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: 0;
+  font-weight: 700;
+  border-width: 2px;
+}
+
+.center {
+  text-align: center;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #3BA3FB;
+  text-decoration: none;
+}
+
+.nav li:first-child {
+  padding-left: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.avatar {
+  height: 75px;
+  border-radius: 25px;
+  margin: 0px;
+}
+
+.avatar-login {
+  height: 16px;
+  border-radius: 35px;
+}
+
+.figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+    margin: 20px;
+}
+
+.question {
+  width: 100%;
+  max-width: 590px;
+  padding: 10px;
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid #dad7d7;
+  border-radius: 3px;
+}
+
+.question-info {
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hacky but less typing in the video */
+.question-info > div > span:first-child {
+  font-weight: bold;
+  margin-right: 5px;
+}
+.question-info > div > span:nth-child(2) {
+  color: #969696;
+  font-size: 16px;
+}
+.question-info > div > div {
+  color: #969696;
+  font-size: 15px;
+}
+.question-info > div > p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.question-icons {
+  display: flex;
+  align-items: center;
+}
+.question-icons > span {
+  color: #969696;
+  margin: 0 15px 0 5px;
+  font-size: 18px !important;
+}
+.question-icon {
+  font-size: 27px;
+  color: #697784;
+}
+.question-icon:hover {
+  color: #00b5d6;
+  cursor: pointer;
+}
+
+.question-anser {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border: 1px solid #dad7d7;
+  border-radius: 3px;
+}
+
+.question-results {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border: 1px solid #dad7d7;
+  border-radius: 3px;
+}
+
+.replying-to {
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  color: #969696;
+  cursor: pointer;
+}
+
+.heart-button {
+  background: transparent;
+  border: none;
+}
+
+.progress {
+  height: 1.5em;
+  width: 100%;
+  background-color: #c9c9c9;
+  position: relative;
+}
+.progress:before {
+  content: attr(data-label);
+  font-size: 0.8em;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  left: 0;
+  right: 0;
+}
+.progress .value {
+  background-color: #7cc4ff;
+  display: inline-block;
+  height: 100%;
+}
+
+.new-question {
+  width: 100%;
+  max-width: 590px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+
+    font: 32px Arial, sans-serif;
+}
+
+.option-result {
+  border-radius: 4px;
+  border: 1px solid #dad7d7;
+  padding: 20px;
+  font-size: 15px;
+  height: 100px;
+}
+
+.option-result-label {
+  font-size: 13px;
+}
+
+
+.textarea {
+  border-radius: 4px;
+  border: 1px solid #dad7d7;
+  padding: 10px;
+  font-size: 15px;
+  height: 100px;
+}
+
+.question-length {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #C3392A;
+}
+
+.user {
+  width: 100%;
+  max-width: 500px;
+  max-height: 150px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  border: 1px solid #dad7d7;
+  border-radius: 3px;
+}
+
+.user-results {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.user-info {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+ul.checkmark li:before {
+    content:"\2713\0020";
+}
