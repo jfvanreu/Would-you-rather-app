@@ -9,7 +9,7 @@ class PageNotFound extends Component{
            <div>
             <img src={PNFImage} alt={`404, sorry page not found!!`}  />
             <p style={{textAlign:"center"}}>
-              <Link to="/">Go Back Home</Link>
+              <Link to="/" className='btn'>Go Back Home</Link>
             </p>
           </div>
         )}
