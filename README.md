@@ -28,4 +28,4 @@ The app is ready to be deployed!
 
 ## Learn More
 
-More information about this application can be found in the "React Project - Would You Rather App?" PDF file.
+More information about this application can be found in the [React Project - Would You Rather App? PDF file](./WouldYouRatherReact%20Project.pdf).
